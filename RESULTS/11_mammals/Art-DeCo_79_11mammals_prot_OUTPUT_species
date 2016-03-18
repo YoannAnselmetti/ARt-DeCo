@@ -1,0 +1,21 @@
+20	Mus_musculus	Rattus_norvegicus	Macaca_mulatta	Pan_troglodytes	Homo_sapiens	Pongo_abelii	Equus_caballus	Bos_taurus	Sus_scrofa	Monodelphis_domestica	Ornithorhynchus_anatinus
+18	Mus_musculus	Rattus_norvegicus	Macaca_mulatta	Pan_troglodytes	Homo_sapiens	Pongo_abelii	Equus_caballus	Bos_taurus	Sus_scrofa	Monodelphis_domestica
+16	Mus_musculus	Rattus_norvegicus	Macaca_mulatta	Pan_troglodytes	Homo_sapiens	Pongo_abelii	Equus_caballus	Bos_taurus	Sus_scrofa
+10	Mus_musculus	Rattus_norvegicus	Macaca_mulatta	Pan_troglodytes	Homo_sapiens	Pongo_abelii
+2	Mus_musculus	Rattus_norvegicus
+0	Mus_musculus
+1	Rattus_norvegicus
+9	Macaca_mulatta	Pan_troglodytes	Homo_sapiens	Pongo_abelii
+3	Macaca_mulatta
+8	Pan_troglodytes	Homo_sapiens	Pongo_abelii
+6	Pan_troglodytes	Homo_sapiens
+4	Pan_troglodytes
+5	Homo_sapiens
+7	Pongo_abelii
+15	Equus_caballus	Bos_taurus	Sus_scrofa
+11	Equus_caballus
+14	Bos_taurus	Sus_scrofa
+12	Bos_taurus
+13	Sus_scrofa
+17	Monodelphis_domestica
+19	Ornithorhynchus_anatinus

@@ -1,0 +1,413 @@
+#####  Statistics on SPECIES  #####
+
+Number of species :			21	(EXT 11 | ANC 10)
+Number of species + Gene data :		21	(EXT 11 | ANC 10)
+Number of species - Gene data :		0	(Ratio 0%)
+Number of EXT species - Gene data :	0	(Ratio 0%)
+Number of ANC species - Gene data :	0	(Ratio 0%)
+
+Species without Gene data :
+-----------------------------------
+
+
+
+#####  Statistics on GENES  #####
+
+Number of genes : 469286 (EXT 224856 | ANC 244430)
+
+Average number of genes per specie : 22347 (EXT 20441.5 | ANC 24443)
+Minimum number : 18288 (EXT 18288 | ANC 20744)
+Maximum number : 33226 (EXT 22378 | ANC 33226)
+
+Number of genes belonging to adjacencies :	416383 (52903 genes which have no adjacency | Ratio 11.2731%)
+Number of EXT genes belonging to adjacencies :	215328 (9528 genes which have no adjacency | Ratio 4.23738%)
+Number of ANC genes belonging to adjacencies :	201055 (43375 genes which have no adjacency | Ratio 17.7454%)
+
+
+
+#####  Statistics on Adjacencies  #####
+
+Number of adjacencies : 404823 (EXT 212690 | ANC 192133)
+
+Number of genes and adjacencies by specie
+-----------------------------------
+EXT Specie #0 : 21665 genes - 21627 adjacencies	(Mus_musculus)
+EXT Specie #1 : 22378 genes - 22309 adjacencies	(Rattus_norvegicus)
+EXT Specie #3 : 21324 genes - 20662 adjacencies	(Macaca_mulatta)
+EXT Specie #4 : 18288 genes - 18059 adjacencies	(Pan_troglodytes)
+EXT Specie #5 : 19913 genes - 19874 adjacencies	(Homo_sapiens)
+EXT Specie #7 : 19467 genes - 19414 adjacencies	(Pongo_abelii)
+EXT Specie #11 : 20304 genes - 20211 adjacencies	(Equus_caballus)
+EXT Specie #12 : 19852 genes - 19811 adjacencies	(Bos_taurus)
+EXT Specie #13 : 21144 genes - 19894 adjacencies	(Sus_scrofa)
+EXT Specie #17 : 20510 genes - 20499 adjacencies	(Monodelphis_domestica)
+EXT Specie #19 : 20011 genes - 10330 adjacencies	(Ornithorhynchus_anatinus)
+ANC Specie #2 : 20883 genes - 18094 adjacencies
+ANC Specie #6 : 20744 genes - 19671 adjacencies
+ANC Specie #8 : 22842 genes - 20805 adjacencies
+ANC Specie #9 : 24360 genes - 20725 adjacencies
+ANC Specie #10 : 28929 genes - 23940 adjacencies
+ANC Specie #14 : 23159 genes - 19049 adjacencies
+ANC Specie #15 : 26099 genes - 21929 adjacencies
+ANC Specie #16 : 33226 genes - 25713 adjacencies
+ANC Specie #18 : 22493 genes - 14244 adjacencies
+ANC Specie #20 : 21695 genes - 7963 adjacencies
+
+Number of adjacencies by specie
+-----------------------------------
+Average number of adjacencies per specie : 19277.3 (EXT 19335.5 | ANC 19213.3)
+Minimum number : 7963 (EXT 10330 | ANC 7963)
+Maximum number : 25713 (EXT 22309 | ANC 25713)
+
+Number of adjacencies by gene
+-----------------------------------
+Average number of adjacencies per gene : 1.72527 (EXT 1.89179 | ANC 1.57209)
+Minimum number : 0 (EXT 0 | ANC 0)
+Maximum number : 17 (EXT 3 | ANC 17)
+
+Number of genes which have no adjacency :	52903	(Ratio 11.2731%)
+Number of EXT genes which have no adjacency :	9528	(Ratio 4.23738%)
+Number of ANC genes which have no adjacency :	43375	(Ratio 17.7454%)
+
+Number of genes with stricly 1 adjacencie :	50653	(Ratio 10.7936%)
+Number of EXT genes with stricly 1 adjacencie :	5283	(Ratio 2.3495%)
+Number of ANC genes with stricly 1 adjacencie :	45370	(Ratio 18.5616%)
+
+Number of genes with stricly 2 adjacencies :		341632	(Ratio 72.7982%)
+Number of EXT genes with stricly 2 adjacencies :	210038	(Ratio 93.41%)
+Number of ANC genes with stricly 2 adjacencies :	131594	(Ratio 53.8371%)
+
+Number of genes with stricly more than 2 adjacencies :		24098	(Ratio 5.13504%)
+Number of EXT genes with stricly more than 2 adjacencies :	7	(Ratio 0.0031131%)
+Number of ANC genes with stricly more than 2 adjacencies :	24091	(Ratio 9.85599%)
+
+Distribution Number of genes sharing the same number of adjacencies
+-----------------------------------
+EXT 0 Adj - 9528 genes
+EXT 1 Adj - 5283 genes
+EXT 2 Adj - 210038 genes
+EXT 3 Adj - 7 genes
+
+ANC 0 Adj - 43375 genes
+ANC 1 Adj - 45370 genes
+ANC 2 Adj - 131594 genes
+ANC 3 Adj - 21201 genes
+ANC 4 Adj - 2509 genes
+ANC 5 Adj - 298 genes
+ANC 6 Adj - 48 genes
+ANC 7 Adj - 20 genes
+ANC 8 Adj - 9 genes
+ANC 9 Adj - 1 genes
+ANC 10 Adj - 1 genes
+ANC 13 Adj - 1 genes
+ANC 14 Adj - 1 genes
+ANC 16 Adj - 1 genes
+ANC 17 Adj - 1 genes
+
+Distribution Number of genes sharing the same number of adjacencies by specie
+-----------------------------------
+EXT Specie #0:	3	70	21592	(Mus_musculus)
+EXT Specie #1:	44	50	22284	(Rattus_norvegicus)
+EXT Specie #3:	569	186	20569	(Macaca_mulatta)
+EXT Specie #4:	168	123	17996	1	(Pan_troglodytes)
+EXT Specie #5:	9	60	19844	(Homo_sapiens)
+EXT Specie #7:	0	106	19361	(Pongo_abelii)
+EXT Specie #11:	36	114	20154	(Equus_caballus)
+EXT Specie #12:	8	66	19778	(Bos_taurus)
+EXT Specie #13:	800	901	19442	1	(Sus_scrofa)
+EXT Specie #17:	0	22	20488	(Monodelphis_domestica)
+EXT Specie #19:	7891	3585	8530	5	(Ornithorhynchus_anatinus)
+ANC Specie #2:	1625	3246	15153	804	51	4
+ANC Specie #6:	1032	1824	16220	1595	72	1
+ANC Specie #8:	2193	2732	15105	2592	208	12
+ANC Specie #9:	3446	3667	14284	2668	270	22	1	1	1
+ANC Specie #10:	4626	5650	14507	3478	580	69	16	3
+ANC Specie #14:	3075	4490	13390	2024	152	23	3	1	1
+ANC Specie #15:	3810	4770	13982	3099	382	43	9	2	2
+ANC Specie #16:	6880	7004	14567	3963	699	89	13	9	1	1
+ANC Specie #18:	5817	5888	9935	753	66	24	3	2	2	0	1	0	0	1	0	0	1
+ANC Specie #20:	10871	6099	4451	225	29	11	3	2	2	0	0	0	0	0	1	0	0	1
+
+
+
+#####  Statistics on Adjacencies Classes  #####
+
+Number of adjacencies classes : 25249
+Average adjacencies class size : 6.94384
+Minimum number : 2
+Maximum number : 157
+
+Distribution adjacencies classes size
+-----------------------------------
+2 Adj - 5541 Class(es)
+3 Adj - 1741 Class(es)
+4 Adj - 1265 Class(es)
+5 Adj - 1066 Class(es)
+6 Adj - 1246 Class(es)
+7 Adj - 1731 Class(es)
+8 Adj - 2507 Class(es)
+9 Adj - 3426 Class(es)
+10 Adj - 3775 Class(es)
+11 Adj - 1854 Class(es)
+12 Adj - 275 Class(es)
+13 Adj - 94 Class(es)
+14 Adj - 62 Class(es)
+15 Adj - 71 Class(es)
+16 Adj - 70 Class(es)
+17 Adj - 71 Class(es)
+18 Adj - 64 Class(es)
+19 Adj - 80 Class(es)
+20 Adj - 87 Class(es)
+21 Adj - 56 Class(es)
+22 Adj - 23 Class(es)
+23 Adj - 16 Class(es)
+24 Adj - 9 Class(es)
+25 Adj - 8 Class(es)
+26 Adj - 10 Class(es)
+27 Adj - 5 Class(es)
+28 Adj - 9 Class(es)
+29 Adj - 10 Class(es)
+30 Adj - 5 Class(es)
+31 Adj - 9 Class(es)
+32 Adj - 7 Class(es)
+33 Adj - 7 Class(es)
+34 Adj - 3 Class(es)
+35 Adj - 4 Class(es)
+37 Adj - 3 Class(es)
+38 Adj - 1 Class(es)
+39 Adj - 4 Class(es)
+40 Adj - 3 Class(es)
+41 Adj - 3 Class(es)
+42 Adj - 4 Class(es)
+43 Adj - 2 Class(es)
+45 Adj - 1 Class(es)
+47 Adj - 2 Class(es)
+49 Adj - 1 Class(es)
+50 Adj - 2 Class(es)
+52 Adj - 1 Class(es)
+53 Adj - 1 Class(es)
+59 Adj - 1 Class(es)
+60 Adj - 2 Class(es)
+61 Adj - 1 Class(es)
+63 Adj - 1 Class(es)
+65 Adj - 2 Class(es)
+72 Adj - 1 Class(es)
+73 Adj - 2 Class(es)
+78 Adj - 1 Class(es)
+85 Adj - 1 Class(es)
+114 Adj - 1 Class(es)
+157 Adj - 1 Class(es)
+
+
+
+#####  Statistics on Adjacencies Trees  #####
+
+Number of adjacencies trees : 57027
+
+Adjacencies classes size (Size=number of adjacencies)
+-----------------------------------
+Average adjacencies classes size : 2.25858
+Minimum number : 1
+Maximum number : 75
+
+Distribution of adjacencies classes size
+-----------------------------------
+1 Adj tree(s) - 8370 Adj classe(s)
+2 Adj tree(s) - 9298 Adj classe(s)
+3 Adj tree(s) - 4280 Adj classe(s)
+4 Adj tree(s) - 1849 Adj classe(s)
+5 Adj tree(s) - 781 Adj classe(s)
+6 Adj tree(s) - 289 Adj classe(s)
+7 Adj tree(s) - 131 Adj classe(s)
+8 Adj tree(s) - 80 Adj classe(s)
+9 Adj tree(s) - 39 Adj classe(s)
+10 Adj tree(s) - 30 Adj classe(s)
+11 Adj tree(s) - 14 Adj classe(s)
+12 Adj tree(s) - 11 Adj classe(s)
+13 Adj tree(s) - 13 Adj classe(s)
+14 Adj tree(s) - 6 Adj classe(s)
+15 Adj tree(s) - 8 Adj classe(s)
+16 Adj tree(s) - 9 Adj classe(s)
+17 Adj tree(s) - 2 Adj classe(s)
+18 Adj tree(s) - 2 Adj classe(s)
+19 Adj tree(s) - 3 Adj classe(s)
+20 Adj tree(s) - 5 Adj classe(s)
+21 Adj tree(s) - 5 Adj classe(s)
+22 Adj tree(s) - 3 Adj classe(s)
+23 Adj tree(s) - 1 Adj classe(s)
+24 Adj tree(s) - 2 Adj classe(s)
+25 Adj tree(s) - 1 Adj classe(s)
+26 Adj tree(s) - 1 Adj classe(s)
+28 Adj tree(s) - 3 Adj classe(s)
+29 Adj tree(s) - 1 Adj classe(s)
+31 Adj tree(s) - 2 Adj classe(s)
+34 Adj tree(s) - 1 Adj classe(s)
+37 Adj tree(s) - 2 Adj classe(s)
+38 Adj tree(s) - 1 Adj classe(s)
+42 Adj tree(s) - 1 Adj classe(s)
+45 Adj tree(s) - 1 Adj classe(s)
+51 Adj tree(s) - 1 Adj classe(s)
+52 Adj tree(s) - 1 Adj classe(s)
+69 Adj tree(s) - 1 Adj classe(s)
+75 Adj tree(s) - 1 Adj classe(s)
+
+Adjacencies trees size (Size=number of adjacencies)
+-----------------------------------
+Average adjacencies trees size : 8.95367
+Minimum number : 1
+Maximum number : 122
+
+Distribution of adjacencies trees size
+-----------------------------------
+1 Adj - 21946 Adj tree(s)
+3 Adj - 5131 Adj tree(s)
+4 Adj - 864 Adj tree(s)
+5 Adj - 3118 Adj tree(s)
+6 Adj - 613 Adj tree(s)
+7 Adj - 1956 Adj tree(s)
+8 Adj - 459 Adj tree(s)
+9 Adj - 621 Adj tree(s)
+10 Adj - 497 Adj tree(s)
+11 Adj - 1679 Adj tree(s)
+12 Adj - 809 Adj tree(s)
+13 Adj - 1222 Adj tree(s)
+14 Adj - 753 Adj tree(s)
+15 Adj - 2194 Adj tree(s)
+16 Adj - 1274 Adj tree(s)
+17 Adj - 1933 Adj tree(s)
+18 Adj - 1646 Adj tree(s)
+19 Adj - 1839 Adj tree(s)
+20 Adj - 1577 Adj tree(s)
+21 Adj - 1501 Adj tree(s)
+22 Adj - 1087 Adj tree(s)
+23 Adj - 871 Adj tree(s)
+24 Adj - 596 Adj tree(s)
+25 Adj - 468 Adj tree(s)
+26 Adj - 335 Adj tree(s)
+27 Adj - 301 Adj tree(s)
+28 Adj - 229 Adj tree(s)
+29 Adj - 181 Adj tree(s)
+30 Adj - 146 Adj tree(s)
+31 Adj - 83 Adj tree(s)
+32 Adj - 72 Adj tree(s)
+33 Adj - 76 Adj tree(s)
+34 Adj - 60 Adj tree(s)
+35 Adj - 59 Adj tree(s)
+36 Adj - 55 Adj tree(s)
+37 Adj - 44 Adj tree(s)
+38 Adj - 43 Adj tree(s)
+39 Adj - 50 Adj tree(s)
+40 Adj - 38 Adj tree(s)
+41 Adj - 35 Adj tree(s)
+42 Adj - 47 Adj tree(s)
+43 Adj - 38 Adj tree(s)
+44 Adj - 46 Adj tree(s)
+45 Adj - 47 Adj tree(s)
+46 Adj - 47 Adj tree(s)
+47 Adj - 35 Adj tree(s)
+48 Adj - 21 Adj tree(s)
+49 Adj - 35 Adj tree(s)
+50 Adj - 23 Adj tree(s)
+51 Adj - 25 Adj tree(s)
+52 Adj - 25 Adj tree(s)
+53 Adj - 15 Adj tree(s)
+54 Adj - 17 Adj tree(s)
+55 Adj - 8 Adj tree(s)
+56 Adj - 10 Adj tree(s)
+57 Adj - 10 Adj tree(s)
+58 Adj - 6 Adj tree(s)
+59 Adj - 8 Adj tree(s)
+60 Adj - 7 Adj tree(s)
+61 Adj - 4 Adj tree(s)
+62 Adj - 4 Adj tree(s)
+63 Adj - 9 Adj tree(s)
+64 Adj - 5 Adj tree(s)
+65 Adj - 6 Adj tree(s)
+66 Adj - 4 Adj tree(s)
+67 Adj - 6 Adj tree(s)
+68 Adj - 3 Adj tree(s)
+69 Adj - 3 Adj tree(s)
+70 Adj - 1 Adj tree(s)
+71 Adj - 8 Adj tree(s)
+72 Adj - 1 Adj tree(s)
+73 Adj - 1 Adj tree(s)
+74 Adj - 1 Adj tree(s)
+76 Adj - 4 Adj tree(s)
+77 Adj - 1 Adj tree(s)
+78 Adj - 2 Adj tree(s)
+80 Adj - 2 Adj tree(s)
+81 Adj - 2 Adj tree(s)
+82 Adj - 5 Adj tree(s)
+83 Adj - 2 Adj tree(s)
+84 Adj - 4 Adj tree(s)
+88 Adj - 1 Adj tree(s)
+89 Adj - 3 Adj tree(s)
+91 Adj - 2 Adj tree(s)
+92 Adj - 2 Adj tree(s)
+94 Adj - 1 Adj tree(s)
+95 Adj - 1 Adj tree(s)
+96 Adj - 1 Adj tree(s)
+98 Adj - 1 Adj tree(s)
+102 Adj - 1 Adj tree(s)
+105 Adj - 1 Adj tree(s)
+106 Adj - 1 Adj tree(s)
+107 Adj - 1 Adj tree(s)
+114 Adj - 1 Adj tree(s)
+122 Adj - 1 Adj tree(s)
+
+Number of extant adjacencies per adjacencies tree
+-----------------------------------
+Average number of adjacencies trees leaves : 4.50769
+Minimum number : 1
+Maximum number : 43
+
+Distribution of number of extant adjacencies per adjacencies trees
+-----------------------------------
+1 EXT Adj - 21948 Adj tree(s)
+2 EXT Adj - 6885 Adj tree(s)
+3 EXT Adj - 3675 Adj tree(s)
+4 EXT Adj - 2340 Adj tree(s)
+5 EXT Adj - 1255 Adj tree(s)
+6 EXT Adj - 2872 Adj tree(s)
+7 EXT Adj - 1912 Adj tree(s)
+8 EXT Adj - 3891 Adj tree(s)
+9 EXT Adj - 4021 Adj tree(s)
+10 EXT Adj - 3527 Adj tree(s)
+11 EXT Adj - 2049 Adj tree(s)
+12 EXT Adj - 846 Adj tree(s)
+13 EXT Adj - 642 Adj tree(s)
+14 EXT Adj - 405 Adj tree(s)
+15 EXT Adj - 104 Adj tree(s)
+16 EXT Adj - 109 Adj tree(s)
+17 EXT Adj - 89 Adj tree(s)
+18 EXT Adj - 75 Adj tree(s)
+19 EXT Adj - 63 Adj tree(s)
+20 EXT Adj - 68 Adj tree(s)
+21 EXT Adj - 68 Adj tree(s)
+22 EXT Adj - 48 Adj tree(s)
+23 EXT Adj - 31 Adj tree(s)
+24 EXT Adj - 34 Adj tree(s)
+25 EXT Adj - 15 Adj tree(s)
+26 EXT Adj - 10 Adj tree(s)
+27 EXT Adj - 7 Adj tree(s)
+28 EXT Adj - 5 Adj tree(s)
+29 EXT Adj - 9 Adj tree(s)
+30 EXT Adj - 5 Adj tree(s)
+31 EXT Adj - 5 Adj tree(s)
+32 EXT Adj - 3 Adj tree(s)
+33 EXT Adj - 1 Adj tree(s)
+34 EXT Adj - 3 Adj tree(s)
+36 EXT Adj - 1 Adj tree(s)
+38 EXT Adj - 2 Adj tree(s)
+39 EXT Adj - 2 Adj tree(s)
+41 EXT Adj - 1 Adj tree(s)
+43 EXT Adj - 1 Adj tree(s)
+
+
+
+#####  Statistics on Events node  #####
+
+Creation number : 42464 ; (nb_arbres_adj_tot - nb_classes= 31778)
+Break number : 11397
+Gene Duplication number : 1328802 (compté par DeCo) ; 57184 (ds les arbres réconciliés) 57184 (pour les compter par espèces)
+Adjacencie Duplication number : 7900
