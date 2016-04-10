@@ -13,8 +13,8 @@ only with a limited warranty and the software's author, the holder of
 the economic rights, and the successive licensors have only limited
 liability. See the file license_CeCILL_V2-en.txt for more details.
 
-File: Step1_reconciliation.cpp                  Last modified on: 20/08/2015
-Created by: Yoann Anselmetti/Sèverine Bérard    Created on: 28/02/2014
+File: Step1_reconciliation.cpp                  Last modified on: 2016/04/08
+Created by: Yoann Anselmetti/Sèverine Bérard    Created on: 2014/02/28
 --------------------------------------------------------------------------
 Specification:
 File use to make reconciliation of genes trees with species tree.
@@ -75,15 +75,6 @@ void RewriteSpeciesGeneFile(map<string,string> &gene_species_EXT){
    IffilSpeGene.close();
    OffilSpeGene.close();
    
-   //Devient inutile
-   // int res;
-   // res=rename("buffer_file_gene",fic_gene.c_str());
-   // if (res!=0){
-   //    cout<<"\nFrom Step1_reconciliation.cpp (RewriteSpeciesGeneFile): Error renaming file \'buffer_file_gene\' in "<<fic_gene<<endl;
-   //    if (file_log)
-   //       Offile_log<<"\nFI\tFrom Step1_reconciliation.cpp (RewriteSpeciesGeneFile): Error renaming file \'buffer_file_gene\' in "<<fic_gene<<endl;
-   //    exit(EXIT_FAILURE);
-   // }
    cout<<" DONE"<<endl<<endl;
    if (file_log)
       Offile_log<<" DONE"<<endl<<endl;
@@ -105,7 +96,8 @@ void RewriteAdjFile(map<string,string> &gene_species_EXT){
    
    vector<adjacence> adjacencies;
    adjacence adj;
-   string G1="";
+   string stored_G1="";
+   string stored_G2="";
    string gene1="";
    string gene2="";
    while (!IffilAdj.eof()){
@@ -114,38 +106,39 @@ void RewriteAdjFile(map<string,string> &gene_species_EXT){
       //Pour éviter un dernier tour de trop à cause d'un blanc en fin de fichier
       if (!IffilAdj.eof()){
          IffilAdj>>gene2;
-         //on vérifie si les deux gènes de l'adjacence sont dans gene_species_EXT (c-à-d dans nos arbres)
-         if (gene_species_EXT.find(gene1)!=gene_species_EXT.end()){
+         // If 
+         if (gene1==stored_G2){
             if (gene_species_EXT.find(gene2)!=gene_species_EXT.end()){
-               adj.gene1=gene1;
-               adj.gene2=gene2;
-               adjacencies.push_back(adj);
-               //Réinitialisation pour le cas où on change d'espèce ou qu'on arrive au début d'1 contig/chr.
-               G1="";
-            }
+		         if (gene_species_EXT.find(stored_G1)!=gene_species_EXT.end()){
+		            adj.gene1=stored_G1;
+		            adj.gene2=gene2;
+		            adjacencies.push_back(adj);
+						string stored_G1="";
+						string stored_G2="";
+		         }
+				}
             else{
-               G1=gene1;
+               // If gene2 is not in gene trees (gene_species_EXT), replace current stored_G2 by gene2.
+               stored_G2=gene2;
             }
          }
          else{
-            if (gene_species_EXT.find(gene2)!=gene_species_EXT.end()){
-               if (G1==""){
-                  //On ne fait rien
-               }
-               else{
-		  //On vérifie que G1 et gene2 sont bien de la meme espèce avant d'en faire une adj !
-		  if(gene_species_EXT[G1]==gene_species_EXT[gene2])
-		     {
-			adj.gene1=G1;
-			adj.gene2=gene2;
-			adjacencies.push_back(adj);
-			G1="";   
-		     }
-               }
-            }
-            else{
-               //On ne fait rien on élimine et aucun gène n'est conservé, car les 2 gènes de l'adjacence ont été éliminés.
-            }
+		      //on vérifie si les deux gènes de l'adjacence sont dans gene_species_EXT (c-à-d dans nos arbres)
+		      if (gene_species_EXT.find(gene1)!=gene_species_EXT.end()){
+		         if (gene_species_EXT.find(gene2)!=gene_species_EXT.end()){
+		            adj.gene1=gene1;
+		            adj.gene2=gene2;
+		            adjacencies.push_back(adj);
+		            //Réinitialisation pour le cas où on change d'espèce ou qu'on arrive au début d'1 contig/chr.
+						string stored_G1="";
+						string stored_G2="";
+		         }
+               // IF gene2 is not in gene_species_EXT (i.e in gene trees store). Store gene1 and gene2 in stored_G1 and stored_G2
+		         else{
+		            stored_G1=gene1;
+		            stored_G2=gene2;
+		         }
+		      }
          }
       }
    }

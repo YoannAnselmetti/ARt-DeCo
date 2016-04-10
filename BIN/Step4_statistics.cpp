@@ -2315,7 +2315,7 @@ Offile_log<<"From Step4_statistics.cpp (main): ERROR while opening file "<<OUTPU
 //      Creation of connected components for gene with adjacencies
       (*it_AA).second = composantesConnexes(v,distrib_CC_adj_ANC,cc_list_adj_ANC,i);
       map<int,vector<string> >::iterator it_aa;
-      int size_CC=cc_list_adj_ANC.size();
+//      int size_CC=cc_list_adj_ANC.size();
 //      cout<<size_CC<<endl;
       for(it_aa=cc_list_adj_ANC.begin();it_aa!=cc_list_adj_ANC.end();it_aa++){
          ofstream Offile_OUTPUT_CC;
@@ -2433,7 +2433,7 @@ Offile_log<<"From Step4_statistics.cpp (main): ERROR while opening file "<<OUTPU
 //      Creation of connected components for gene with adjacencies
       (*it_AA).second = composantesConnexes(v,distrib_CC_adj_Ext_ORI,cc_list_adj_Ext_ORI,i);
       map<int,vector<string> >::iterator it_aa;
-      int size_CC=cc_list_adj_Ext_ORI.size();
+//      int size_CC=cc_list_adj_Ext_ORI.size();
 //      cout<<size_CC<<endl;
       for(it_aa=cc_list_adj_Ext_ORI.begin();it_aa!=cc_list_adj_Ext_ORI.end();it_aa++){
          ofstream Offile_OUTPUT_CC;
@@ -2503,7 +2503,7 @@ Offile_log<<"From Step4_statistics.cpp (main): ERROR while opening file "<<OUTPU
 //         Creation of connected components for gene with adjacencies
          (*it_AA).second = composantesConnexes(v,distrib_CC_adj_Ext,cc_list_adj_Ext,i);
          map<int,vector<string> >::iterator it_aa;
-         int size_CC=cc_list_adj_Ext.size();
+//         int size_CC=cc_list_adj_Ext.size();
 //         cout<<size_CC<<endl;
          for(it_aa=cc_list_adj_Ext.begin();it_aa!=cc_list_adj_Ext.end();it_aa++){
             ofstream Offile_OUTPUT_CC;
